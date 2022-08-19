@@ -81,5 +81,48 @@ public class DoubleLongFloat{
     float e = 2.5f;
     double f = 2.5555555555555;
     }
+  
+ }
+ 
+ //Boolean (True OR False ONLY; NOT "false" OR "true", which are strings)
+ 
+ public class Boolean{
+ //what is method stubs? 
+  public static void main(String[] args) {
+    boolean g = ture;
+ // ==> boolean g = 1==1 
+    boolean h = false;
+    boolean eatdinneratBrittainfortwice = false
+    int EatatBrittain = 0; 
+    
+ //Same as example in int
+ //Boolean can also be statement that has a definitive answer of true OR false
+    int a = 2;
+    boolean i = a == 2;
+    
+  //Boolean can be used for if statement: if (Put something true OR false here!=boolean)
+    if(g) {
+      System.out.println("Eat dinner in Brittain Dinning Hall for Monday!");
+  //New number of times eat at Brittain = previous number + 1⬇
+      EatatBrittain = EatatBrittain + 1;
+      }
+  //deadcode below: never get reached bc it is FALSE!
+    if(h) {
+      System.out.println("Eat dinner in Brittain for Tuesday!");
+      EatatBrittain = EatatBrittain + 1;
+    }
+   //if(g) & if(h) == if(true) & if(false)
+     if(EatatBrittain = 2) {
+      System.out.println("Congrat! Enjoy your meals at GT!");
+    }
+    
+   //Another Way to present the result is: change the T/F stored in boolean object eatdinneratBrittainfortwice by if() condition
+   //if(EatatBrittain = 2) {
+   //   eatdinneratBrittainfortwice = true;
+   // }
+   //if(eatdinneratBrittainfortwice) {
+   //  System.out.println("Congrat! Enjoy your meals at GT!");
+   
+  }
  }
     
