@@ -22,7 +22,7 @@ CatFish
 
 //Escape Sequences \ " \\ \t \n
 //How to print Double Quotes "" in Java
-// put backslash \ before each double quote " ==> \"
+// put Escape Character backslash \ before each double quote " ==> \"
   System.out.println("Can you repeat how to prononuce \"Atlanta\" again?");
   System.out.println("These are double quotes \"\"");
   System.out.println("This is backslash \\");
@@ -30,6 +30,13 @@ CatFish
   System.out.println("This file is located in ～\\Desktop\\zihui");
   System.out.println("This is a tab \t !");
   System.out.println("This is \n on a \n new line");  
+//There is a space after "\n" and "on" so...
+//Console
+This file is located in ~\Desktop\zihui
+This is a tab !
+This is 
+  on a
+  new line
 
 //String Userinput 
 // Remember to use ";" (English Version) behind each line of code 
