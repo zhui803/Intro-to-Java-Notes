@@ -52,3 +52,19 @@ class Main {
       System.out.println ("Your Dinner is: " + Dinner);
       }
      }
+
+//Integer Variables (lower case "int"; Integer can only be Whole Numbers (negative is ok); there is still an Upper Limit for integer)
+//Dislike String, we can do math with int (the results will be round down to the nearst integer: 2.5 => 2)
+public class Integers {
+    {
+    
+    String c = "Chloe Liu";
+    int a = 2;
+    int b = 3;
+    
+    System.out.println(c);
+    System.out.println(a + b);
+    System.out.println("This is a " + "Java practice"); 
+    
+   }
+}
