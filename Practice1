@@ -1,0 +1,14 @@
+//String Userinput 2022
+// Remember to use ";" (English Version) behind each line of code 
+// System.out.println use "()" instead of "="
+class Main {
+{
+// Create a Scanner object called "lmk"; "System.in" allows the computer to read info. in the Console
+  Scanner lmk = new Scanner (System.in);
+    System.out.println = 
+    //Read Input (nextLine()reads a String value from the user)
+    String Dinner = lmk.nextLine();
+    //Output User Input
+      System.out.println ("Your Dinner is: " + Dinner);
+      }
+     }
