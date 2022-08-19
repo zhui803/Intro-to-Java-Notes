@@ -68,3 +68,18 @@ public class Integers {
     
    }
 }
+
+//Double,Long,and Float
+//Long: long integers (remember to put "L" or "l" behind the long numbers)
+//Float: decimal (put "F" or "f" behind decimals)
+//Double: for decimals that r too long (NO needs for "D" or "d" behind double)
+//range for each numeric data type is here: https://www.baeldung.com/java-primitives#:~:text=2.-,Primitive%20Data%20Types,objects%20and%20represent%20raw%20values.
+
+public class DoubleLongFloat{
+  {
+    long d = 999999999999999L; 
+    float e = 2.5f;
+    double f = 2.5555555555555;
+    }
+ }
+    
