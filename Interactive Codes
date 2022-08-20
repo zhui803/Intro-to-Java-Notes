@@ -29,3 +29,18 @@ public class Ifelse {
   
  }
 }
+
+//Comparison Operators
+public class Ifelse {
+  public static void main (String[] args) {
+ //“=” one equal sign: Assignment Operator
+  int a = 5;
+  int b = 4; 
+ //"==" two equal signs: Comparison Operator
+ //"()"parentthese is Optional!
+  boolean c = (a == b); 
+ //Expected result in the console: False cuz a is NOT equal to b 
+  System.out.println(c);
+  
+  }
+}
