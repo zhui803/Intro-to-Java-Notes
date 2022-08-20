@@ -1,0 +1,24 @@
+//If-Else Statement: Grade Calculator! Return your Letter Grade from your Grades (User Inputs from 0-100)
+
+public class Ifelse {
+  public static void main (String[] args) {
+//Click "import 'Scanner' (java.util) to avoid error
+//Set up & Get user input
+  Scanner grade = new Scanner (System.in); 
+  System.out.println("Enter your grade:");
+  
+  int n = grade.nextInt(); 
+  System.out.println(n);
+//&&: two conditions have to be satisfied at the same time  
+  if(n>=90 && n<= 100){
+  System.out.println("A");
+  } else if(n>=80 && n<=90){
+  System.out.println("B");
+  } else if(n>=80 && n<=90){
+  System.out.println("B");
+  } else if(n>=80 && n<=90){
+  System.out.println("B");
+  }
+  
+ }
+}
