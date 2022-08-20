@@ -22,6 +22,7 @@ public class Ifelse {
   System.out.println("Fail");
   }  
 //else doesn't have a condition => ()
+//as long as it doesnt satisfy if(), it will be classified in else{}
   else{
   System.out.println("Your Grade is NOT valid");
   }  
