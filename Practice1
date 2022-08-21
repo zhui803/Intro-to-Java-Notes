@@ -70,9 +70,11 @@ public class Integers {
 }
 
 //Double,Long,and Float
+
 //Long: long integers (remember to put "L" or "l" behind the long numbers)
 //Float: decimal (put "F" or "f" behind decimals)
 //Double: for decimals that r too long (NO needs for "D" or "d" behind double)
+  //double can also store short decimal like 8.0
 //range for each numeric data type is here: https://www.baeldung.com/java-primitives#:~:text=2.-,Primitive%20Data%20Types,objects%20and%20represent%20raw%20values.
 
 public class DoubleLongFloat{
@@ -123,6 +125,24 @@ public class DoubleLongFloat{
    //if(eatdinneratBrittainfortwice) {
    //  System.out.println("Congrat! Enjoy your meals at GT!");
    
+   }
+  }
+   
+//Exponents in Java
+public class Exponents {
+  
+    public static void main (String[] args) {
+ //Result in the console: 25.0   
+      int a = 5;
+      System.out.println( Math.pow(5,2) );
+ //What if u want 25 instead of 25.0?
+      System.out.println( (int) Math.pow(5,2) );
+ //Another way to do this: 
+      int exponent = (int) Math.pow (2,5); 
+      System.out.println(exponent)
+      
+      double exponent = Math.powe(2,3);
+      System.our.println (exponent); 
   }
  }
     
