@@ -37,10 +37,27 @@ public class Ifelse {
   int a = 5;
   int b = 4; 
  //"==" two equal signs: Comparison Operator
+ //"!=" unequal to; "<=" less than or equal to
  //"()"parentthese is Optional!
   boolean c = (a == b); 
  //Expected result in the console: False cuz a is NOT equal to b 
   System.out.println(c);
   
+ //double: 
+  double a = 2.5;
+  
+  if(a>2){
+    System.out.println("You Passed the Test!");
+  } else {System.out.println("You Failed the Test!");
   }
+// "||" 2 pipes mean "or"; when 1 condition of the (||) is TRUE, the if() statement gets run!
+  if(a == 2.5 || a == 2.6){
+    System.out.println("a equals to 2.5 or 2.6");
+   }
+// "&&" 2 ampersands mean "and" (a range); both conditions btw "&&" need to be satisfied to get a TRUE!
+  if(a >= 0 && a <= 100){
+  System.out.println("a is in the range");
+  }
+  
+ }
 }
