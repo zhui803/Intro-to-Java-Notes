@@ -1,0 +1,38 @@
+//While Loop in Java
+//repeat the loops forever until a specified trigger occurs
+pulic calss WhileLoops {
+  
+  public static void main (String[] args) {
+//while(boolean)
+  while(true){
+    System.out.println("a");
+  }
+
+  int a = 0;
+  
+  while (a < 10){
+    System.out.println("a is less than 0:" + a);
+ //increment a by 1?
+    a++;
+  }
+//While loop vs. For loop
+  for(int i = 0; i < 10; i++){
+    System.out.println("i is less than 10:" + i);
+  }
+//do/while loop
+//do always run what is in the{} regardless of whether while(true/false)
+
+   int a = 0; 
+
+//Result in the Console: a gets run for infnite times bc of while(true), which equals to while(a == 0)
+  do{
+    System.out.println("a");
+  } while(true);
+  
+//Result in the Console: a only get to run for 1 time (stopped by while (a == 1) )
+  do{
+    System.out.println("a");
+  } while(a == 1);
+//the sequence of while() and do{} matter 
+ }
+}
