@@ -61,3 +61,20 @@ public class Ifelse {
   
  }
 }
+
+//WhileLoops in Java
+
+public class WhileLoops {
+  public static void main (String[] args) {
+ //Store all three words in the sentence below into a data structure called an ArrayList
+    String sentence = "Chloe is awesome!";
+    Scanner scan = new Scanner(sentence);
+    ArrayList <String> words = new ArrayList <String>();
+    
+    while(scan.hasnext()) {
+      words.add(scan.next());
+    }
+  System.out.println(words);
+  
+ }
+}
