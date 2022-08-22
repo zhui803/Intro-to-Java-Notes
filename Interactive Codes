@@ -78,3 +78,27 @@ public class WhileLoops {
   
  }
 }
+
+//Arrays Example
+
+public class Arrays {
+  public static void main (Sting[] args){
+  
+    System.out.println("Welcome to Chloe's Kitchen!");
+//Use Arrays (backpack) to keep track of a long list of things: each thing is a string ("words" or "sentence")    
+    
+    Stirng refrigerator[] = {"Zucchini", "Noodles", "Egg"};
+    String cookingmethod[] = {"fry", "boil", "steam"};
+
+//Can also use int
+//Result in the Console: 6
+    int NumberAssignedtotheFood = {2, 4, 6};
+    System.out.println(NumberAssignedtotheFood[3]);
+    
+//Take Zucchini out of the refrigerator
+//Atención: Java starts with Index 0 ==> to take out Zucchini we need to set refri[0] instead of refri[1]
+    System.out.println("What are offered in the refrigerator?");
+    System.out.println(refrigerator[0]);
+
+ }
+}
