@@ -3,7 +3,7 @@
 pulic calss WhileLoops {
   
   public static void main (String[] args) {
-//while(boolean)
+//while(boolean) == while (statement that is True OR False)
   while(true){
     System.out.println("a");
   }
@@ -21,6 +21,7 @@ pulic calss WhileLoops {
   }
 //do/while loop
 //do always run what is in the{} regardless of whether while(true/false)
+//do is NOT followed by "()" <= condition  
 
    int a = 0; 
 
